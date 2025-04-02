@@ -1,0 +1,35 @@
+.Crown-alignment{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width:152px
+  }
+  .left_fade_effect{
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 500px;
+      background: linear-gradient(to right, white, transparent);
+      zIndex: 50;
+  
+  }
+  .fades{
+    width: 500px;
+  }
+ 
+  
+  @media (min-width: 768px) {
+    .fades {
+      width: 350px;
+    }
+  }
+   
+  @media (max-width: 560px) {
+    .fades{
+        width: 120px;
+      }
+      }
+
+
